@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.button {
+  @apply px-4 py-2 bg-primary text-secondary rounded-md hover:bg-opacity-90 transition-all;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* Custom styles beyond Tailwind */
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-opacity-90 transition-all;
+  }
+  
+  .container-custom {
+    @apply max-w-6xl mx-auto px-4;
+  }
+  
+  .page-title {
+    @apply text-3xl md:text-4xl font-serif font-bold text-secondary mb-6;
+  }
+
+  /* Resource cards and listings */
+  .resource-card {
+    @apply border border-gray-200 rounded-lg p-5 bg-white shadow-sm hover:shadow-md transition-shadow;
+  }
+
+  .resource-title {
+    @apply text-xl font-bold text-secondary mb-2;
+  }
+
+  .resource-description {
+    @apply text-gray-600 mb-3;
+  }
+
+  .resource-contact {
+    @apply text-sm text-gray-500 mb-2;
+  }
+
+  .resource-link {
+    @apply inline-block text-primary hover:text-primary-dark underline transition-colors;
+  }
+  
+  /* Section containers */
+  .section-container {
+    @apply py-8 md:py-12;
+  }
+  
+  /* Nation and state grouping */
+  .nation-container {
+    @apply mb-10;
+  }
+  
+  .nation-title {
+    @apply text-2xl font-bold border-b-2 border-primary pb-2 mb-4;
+  }
+  
+  .state-container {
+    @apply mb-6;
+  }
+  
+  .state-title {
+    @apply text-xl font-semibold mb-3 text-secondary;
+  }
+
+  /* Resources grid */
+  .resources-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+  }
+}
+
+.my-class {
+    @apply text-center;
+}
+
+.another-class {
+    @apply bg-blue-500;
+}
+
+.yet-another-class {
+    @apply p-4;
+}
+
+/* Additional helper classes */
+.bg-light {
+  @apply bg-gray-50;
+}
+
+.text-primary-dark {
+  @apply text-blue-700;
+}

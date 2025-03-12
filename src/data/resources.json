@@ -1,0 +1,108 @@
+{
+  "resources": [
+    {
+      "id": "r-001",
+      "name": "Food Bank",
+      "description": "Provides free food to those in need.",
+      "category": "Food",
+      "contact": "555-123-4567",
+      "website": "http://foodbank.org",
+      "nation": "United States",
+      "location": {
+        "state": "California",
+        "county": "Los Angeles"
+      }
+    },
+    {
+      "id": "r-002",
+      "name": "Job Training Center",
+      "description": "Offers job training programs for various skills.",
+      "category": "Employment",
+      "contact": "555-987-6543",
+      "website": "http://jobtraining.org",
+      "nation": "United States",
+      "location": {
+        "state": "California",
+        "county": "Los Angeles"
+      }
+    },
+    {
+      "id": "r-003",
+      "name": "Bank of America",
+      "description": "Provides banking services with low-fee checking accounts designed for those rebuilding their financial life.",
+      "category": "Banking",
+      "contact": "555-111-2222",
+      "website": "http://bankofamerica.com",
+      "nation": "United States",
+      "location": {
+        "state": "California",
+        "county": "Los Angeles"
+      }
+    },
+    {
+      "id": "r-004",
+      "name": "DMV",
+      "description": "Provides identification services including state ID cards and driver's licenses.",
+      "category": "Identification",
+      "contact": "555-333-4444",
+      "website": "http://dmv.ca.gov",
+      "nation": "United States",
+      "location": {
+        "state": "California",
+        "county": "Los Angeles"
+      }
+    },
+    {
+      "id": "r-005",
+      "name": "Wells Fargo Second Chance Banking",
+      "description": "Banking services for individuals who need a fresh start with their banking history.",
+      "category": "Banking",
+      "contact": "555-555-5555",
+      "website": "http://wellsfargo.com",
+      "nation": "United States",
+      "location": {
+        "state": "Texas",
+        "county": "Harris"
+      }
+    },
+    {
+      "id": "r-006",
+      "name": "Texas ID Services",
+      "description": "Services for obtaining Texas state identification.",
+      "category": "Identification",
+      "contact": "555-666-7777",
+      "website": "http://texas.gov/id",
+      "nation": "United States",
+      "location": {
+        "state": "Texas",
+        "county": "Travis"
+      }
+    },
+    {
+      "id": "r-007",
+      "name": "New York Homeless Shelter",
+      "description": "Emergency shelter services for individuals in NYC.",
+      "category": "Shelter",
+      "contact": "555-888-9999",
+      "website": "http://nychomelessshelter.org",
+      "nation": "United States",
+      "location": {
+        "state": "New York",
+        "county": "New York"
+      }
+    },
+    {
+      "id": "r-008",
+      "name": "Canadian ID Services",
+      "description": "Services for obtaining Canadian identification documents.",
+      "category": "Identification",
+      "contact": "555-101-1010",
+      "website": "http://canada.ca/id",
+      "nation": "Canada",
+      "location": {
+        "state": "Ontario",
+        "county": "Toronto"
+      }
+    }
+  ]
+}
